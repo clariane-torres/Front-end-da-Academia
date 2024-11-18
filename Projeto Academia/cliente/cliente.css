@@ -12,65 +12,54 @@ h1{
     margin: 20px;
 }
 
-/* Estilo da div principal */
 .div_cliente {
-    max-width: 600px;
-    margin: 50px auto;
+    max-width: 500px;
+    margin: auto;
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
 }
 
-/* Estilo dos rótulos (labels) */
 .div_cliente label {
     display: block;
-    margin-top: 15px;
+    margin-top: 10px;
     font-weight: bold;
-    font-size: 14px;
-    color: #555;
 }
 
-/* Estilo dos campos de entrada (inputs) */
-.div_cliente input {
-    width: 100%;
+.div_cliente input[type="text"],
+.div_cliente input[type="email"],
+.div_cliente input[type="date"],
+.div_cliente input[type="radio"] {
+    width: 95%;
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
+    border-radius: 5px;
 }
 
-/* Cor do foco no input */
-.div_cliente input:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-    outline: none;
+.div_cliente input[type="radio"] {
+    width: auto;
 }
 
-/* Estilo geral dos botões */
-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
+.div_cliente button {
+    margin-top: 15px;
     padding: 10px 20px;
-    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
     cursor: pointer;
-    margin: 5px;
-    transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-/* Estilo para o hover */
-button:hover {
-    background-color: #0056b3;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.div_cliente button:hover {
+    background-color: #45a049;
 }
 
-/* Estilo para o foco */
-button:focus {
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.8);
-}
 
-/* Estilo para botões secund
+/* -------------------------------- */
+
+
+.radio{
+    display: flex;
+}
