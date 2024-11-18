@@ -1,0 +1,95 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+/* Seção de preços */
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    background-color: #fff;
+    flex-direction: row-reverse;
+    flex-wrap: wrap; /* Para que os planos se reorganizem em telas menores */
+}
+
+/* Estilo do plano */
+.pricing_plan {
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height: 400px; /* Define uma altura fixa */
+    display: flex;
+    flex-direction: column; /* Organiza os itens verticalmente */
+    justify-content: space-between; /* Espaço entre os elementos */
+    margin: 20px auto;
+}
+
+/* Título do plano */
+.plan_title {
+    font-size: 24px;
+    color: #007bff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Preço */
+.plan_price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Lista de características */
+.plan_features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plan_features li {
+    font-size: 14px;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Botão */
+.plan_button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+
+.plan_button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.plan_button:active {
+    background-color: #004494;
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
