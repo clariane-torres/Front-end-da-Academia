@@ -27,3 +27,7 @@ nextButton.addEventListener('click', () => {
 
 // Inicializa o carrossel
 updateCarousel();
+
+
+
+
